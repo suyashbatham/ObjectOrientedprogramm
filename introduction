@@ -1,0 +1,53 @@
+python is a scripting language but also support object oriented programming.
+
+Class : it describe data and provide methods to manipulate that data,all encompassed under a single object.
+        A class i blueprint from which object are created.
+
+Major principles of object-oriented programming system are :
+1.object
+2.class
+3.methods
+4.inheritance
+5.data abstraction
+6.encapsulation
+7.polymorphism
+
+Method : The method is a function that is associated with an object. a method is not unique to class instances.
+         Any object type can have methods.
+
+Super : It is used to give access to methods and properties of a parent orsibling class.
+        The super() function returns an object that represents the parent class.
+
+operator overloading : python operator works for built-in classes. but some operators behaves differentlywith different
+                       types.This features allows same operator to have different meaning according to the context is
+                       class operator overloading.
+
+Operator Magic Methods :
++  __add__(self,other)
+-  __sub__(self,other)
+*  __mul__(self,other)
+/  __truediv__(self,other)
+// __floordiv__(self,other)
+%  __mod__(self,other)
+**  __pow__(self,other)
+
+Comperison  Operator
+<   __lt__(self,other)
+>   __gt__(self,other)
+<=  __le__(self,other)
+>=  __ge__(self,other)
+==  __eq__(self,other)
+!=  __ne__(self,other)
+
+Assignment Operator
+-=  __isub__(self,other)
++=  __iadd__(self,other)
+*=  __imul__(self,other)
+/=  __idiv__(self,other)
+//=  __ifloordiv__(self,other)
+%=  __imod__(self,other)
+
+Meta Class : a metaclass defines the behavior of classes and their instances.It is a class whose instances are classes.
+             type is a most common meta type.
+
+Stack : it is based on last in first out(LIFO).
